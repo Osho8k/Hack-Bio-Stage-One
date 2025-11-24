@@ -8,4 +8,5 @@ def hamming_distance_calculator():
   #Slack and twitter are used as the variable names representing slack_username and twitter_handle to avoid repitition.
   return(hamming_distance)
 
-print(hamming_distance_calculator())
+
+print(f"Hamming distance between '{slack_username}' and '{twitter_handle}' is: {hamming_distance}")
